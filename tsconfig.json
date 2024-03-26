@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["DOM"],
+    "jsx": "react",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "allowJs": false,
+    "checkJs": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
